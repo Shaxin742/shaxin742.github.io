@@ -1,0 +1,50 @@
+
+.home .ant-carousel .slick-slide {
+  height: calc(100vh - 64px);
+  /*background: #364d79;*/
+  overflow: hidden;
+}
+.home .size{
+  height: calc(100vh - 64px);
+  width: 100%;
+  background-size: cover;
+}
+.home{
+  .ant-card{
+    height: 250px;
+  }
+}
+.home {
+  padding: 20px;
+  .info{ 
+    em{
+      color: #517788
+    }
+    h1{
+      font-size: 28px;
+      margin: 10px 0 30px 0;
+    }
+    .money{
+      span{
+        font-size: 22px;
+        color: #517788
+      }
+    }
+  }
+  .gameCon{
+    margin-top: 20px;
+    .nopadtable{
+      table{
+        tr{
+          background: white;
+          td{
+            vertical-align: middle;
+            h3,p{
+              margin-bottom: 0;
+            }
+          }
+        }
+      }
+    }
+  }
+}
